@@ -96,6 +96,15 @@ footer .arriba:hover{
     transition: .6s;
 }
 
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
 @media (min-width: 950px){
     .horizontal-padding{
         padding-left: 70px;
