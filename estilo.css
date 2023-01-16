@@ -71,6 +71,31 @@ a {
     background-color: #1CB698;
 }
 
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    font-size: 20px;
+}
+
+footer .arriba:hover{
+    width: 55px;
+    font-size: 22px;
+    height: 55px;
+    justify-content: center;
+    line-height: 55px;
+    transition: .6s;
+}
+
 @media (min-width: 950px){
     .horizontal-padding{
         padding-left: 70px;
