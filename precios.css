@@ -1,19 +1,19 @@
-
-
 .precios{
     background: #2F2F2F;
     color: #fff;
     background-size: cover;
-    justify-content: space-around;
+    
+    justify-content: space-between;
     display: flex;
 }
 
 .precios .izq{
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
-    padding: 250px;
-    width: 520px;
-    justify-content: flex-start;
+    padding: 50px;
+    
+    width: 100vh;
+    justify-content: center;
     flex-direction: column;
     display: flex;
 }
@@ -50,8 +50,8 @@
 .precios .der{
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
-    padding: 250px;
-    width: 520px;
+    padding: 50px;
+    width: 100vh;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -65,8 +65,28 @@
     border-style: groove;
     text-decoration: double;
     text-align: center;
+    margin:  auto;
 }
 
-@media (max-width: 950px) {
-   { .precios: flex-direction:column;}
+@media (max-width: 950px){
+
+    .precios{
+        display: block;
+        height: auto;
+    }
+
+    .precios .izq{
+        width: 50vh;
+        border-right: none;
+        border-bottom: 2px solid #fff;
+    }
+
+    .precios .izq h2{
+        padding: 20px;
+    }
+
+    .precios .der{
+        width: 50vh;
+    }
+
 }
