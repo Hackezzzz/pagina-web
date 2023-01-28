@@ -12,7 +12,7 @@
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
     padding: 250px;
-    width: 50%;
+    width: 520px;
     justify-content: flex-start;
     flex-direction: column;
     display: flex;
@@ -51,7 +51,7 @@
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
     padding: 250px;
-    width: 50%;
+    width: 520px;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -65,4 +65,8 @@
     border-style: groove;
     text-decoration: double;
     text-align: center;
+}
+
+@media (max-width: 950px) {
+   { .precios: flex-direction:column;}
 }
