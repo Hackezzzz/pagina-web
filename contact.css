@@ -1,144 +1,121 @@
-.todo .horizontal-padding{
-    background: #2c2c2c;
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
 }
 
-.contact {
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("/IMG/bg.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("/IMG/bg.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
     background-color: #008e97;
-    color: var(--text-color-inverse);
-    font-size: 18px;
-    border-radius: 14px;
-    padding: 25px;
-  
-    display: grid;
-    gap: 25px;
-  }
-  
-  .contact p,
-  .contact h2,
-  .contact ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .contact-title {
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  
-  .contact-details,
-  .contact-form {
-    display: grid;
-    gap: 20px;
-  }
-  
-  .contact-details-group,
-  .contact-form-group {
-    display: grid;
-    gap: 3px;
-  }
-  
-  .contact-label {
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    border-radius: 7px;
-    border: none;
-    height: 30px;
-    padding: 5px 10px;
-  }
-  
-  .contact-form textarea {
-    height: auto;
-    resize: vertical;
-  }
-  
-  .contact-form-submit {
-    width: 100%;
-    height: 50px;
-  
-    background-color: var(--text-color);
-    border-radius: 7px;
-    color: var(--text-color-inverse);
-    border: 1px solid var(--theme-color);
-  
-    cursor: pointer;
-  }
-  
-  .contact-form-submit:hover {
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #008e97;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #13efff;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
-    border: 2px solid black;
-    color: black;
-    transition: .5s;
-  }
-  
-  .social-list {
-    list-style: none;
-  
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  .social-list img {
-    height: 20px;
-  }
-  
-  .social-list img:hover {
-    filter: drop-shadow(0 0 5px var(--secondary-color));
-  }
-  
-  @media (min-width: 950px) {
-    .contact {
-      font-size: 20px;
-      padding: 70px;
-  
-      max-width: 980px;
-      margin: 0 auto;
-  
-      box-sizing: border-box;
-    }
-  
-    .contact-title {
-      font-size: 35px;
-      text-align: left;
-    }
-  
-    .social-list {
-      justify-content: flex-start;
-    }
-  
-    .social-list img {
-      height: 35px;
-    }
-  
-    .contact-title {
-      grid-area: title;
-    }
-  
-    .contact-details {
-      grid-area: details;
-    }
-  
-    .contact-form {
-      grid-area: form;
-    }
-  
-    .social {
-      grid-area: social;
-    }
-  
-    .contact {
-      display: grid;
-      grid:
-        "title   form" auto
-        "details form" 1fr
-        "social  form" auto /
-        1fr      1fr;
-      align-items: start;
-    }
-  }
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
