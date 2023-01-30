@@ -75,7 +75,7 @@
     }
 
     .precios .izq{
-        width: 45vh;
+        width: 42vh;
         border-right: none;
         border-bottom: 2px solid #fff;
     }
@@ -85,7 +85,7 @@
     }
 
     .precios .der{
-        width: 45vh;
+        width: 42vh;
     }
 
     .precios .der a{
