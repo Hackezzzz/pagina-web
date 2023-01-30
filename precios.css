@@ -86,11 +86,8 @@
 
     .precios .der{
         width: 42vh;
+        padding: 40px;
     }
 
-    .precios .der a{
-        justify-content: center;
-        align-items: center;
-}
 
 }
