@@ -88,4 +88,9 @@
         width: 45vh;
     }
 
+    .precios .der a{
+        justify-content: center;
+        align-items: center;
+}
+
 }
