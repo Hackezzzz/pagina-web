@@ -67,7 +67,7 @@
     margin:  auto;
 }
 
-@media (max-width: 50vh){
+@media (max-width: 850px){
 
     .precios{
         display: block;
