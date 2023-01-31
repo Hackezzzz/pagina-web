@@ -67,17 +67,18 @@
     margin:  auto;
 }
 
-@media (max-width: 650px){
+@media (max-width: 630px){
 
     .precios{
         display: block;
         height: auto;
-        align-items: center;
+        
     }
 
     .precios .izq{
         width: 42vh;
         border-right: none;
+        align-items: center;
         border-bottom: 2px solid #fff;
     }
 
@@ -88,6 +89,7 @@
     .precios .der{
         width: 42vh;
         padding: 40px;
+        align-items: center;
     }
 
 
