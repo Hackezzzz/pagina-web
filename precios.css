@@ -10,8 +10,8 @@
 .precios .izq{
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
-    padding: 50px;
-    height: 170px;
+    padding: 80px;
+    
     width: 100vh;
     justify-content: center;
     flex-direction: column;
@@ -49,9 +49,9 @@
 
 .precios .der{
     font-family: 'Poppins', sans-serif;
-    padding: 50px;
+    padding: 80px;
     width: 100vh;
-    height: 170px;
+    
     justify-content: center;
     flex-direction: column;
     display: flex;
