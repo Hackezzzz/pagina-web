@@ -10,7 +10,7 @@
 .precios .izq{
     font-family: 'Poppins', sans-serif;
     border-right: 2px solid #008e97;
-    padding: 80px;
+    padding: 55px;
     
     width: 100vh;
     justify-content: center;
@@ -68,7 +68,7 @@
     margin:  auto;
 }
 
-@media (max-width: 900px){
+@media (max-width: 830px){
 
     .precios{
         display: block;
@@ -82,7 +82,7 @@
         align-items: center;
         border-bottom: 2px solid #fff;
         margin: auto 18vh;
-        padding: 50px;
+        
     }
 
     .precios .izq h2{
@@ -94,7 +94,7 @@
         padding: 40px;
         align-items: center;
         margin: auto 15vh;
-        padding: 50px;
+        
     }
 
 
