@@ -67,7 +67,7 @@
     margin:  auto;
 }
 
-@media (max-width: 850px){
+@media (max-width: 800px){
 
     .precios{
         display: block;
@@ -99,10 +99,10 @@
 
 @media (max-width: 530px){
     .precios .izq{
-        margin-left: 6vh;
+        margin-left: 1em;
     }
 
     .precios .der{
-        margin-left: 6vh;
+        margin-left: 1em;
     }
 }
