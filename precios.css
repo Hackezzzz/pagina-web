@@ -91,8 +91,18 @@
         width: 42vh;
         padding: 40px;
         align-items: center;
-        margin-left: 18vh;
+        margin-left: 15vh;
     }
 
 
+}
+
+@media (max-width: 500px){
+    .precios .izq{
+        margin-left: 10vh;
+    }
+
+    .precios .der{
+        margin-left: 10vh;
+    }
 }
