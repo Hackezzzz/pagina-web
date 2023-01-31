@@ -80,7 +80,8 @@
         border-right: none;
         align-items: center;
         border-bottom: 2px solid #fff;
-        margin-left: 18vh;
+        margin: auto 18vh;
+        
     }
 
     .precios .izq h2{
@@ -91,7 +92,7 @@
         width: 42vh;
         padding: 40px;
         align-items: center;
-        margin-left: 15vh;
+         margin: auto 15vh;
     }
 
 
@@ -103,6 +104,6 @@
     }
 
     .precios .der{
-        margin-left: 4vh;
+        margin-left: 3vh;
     }
 }
