@@ -99,10 +99,10 @@
 
 @media (max-width: 500px){
     .precios .izq{
-        margin-left: 10vh;
+        margin-left: 6vh;
     }
 
     .precios .der{
-        margin-left: 10vh;
+        margin-left: 6vh;
     }
 }
