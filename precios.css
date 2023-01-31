@@ -100,7 +100,7 @@
 
 @media (max-width: 620px){
     .precios .izq{
-        margin: 5vh;
+        margin: auto 5vh;
     }
 
     .precios .der{
