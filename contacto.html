@@ -14,11 +14,13 @@
 			<div class="left"></div>
 			<div class="right">
 				<h2>Nos hemos entendido...</h2>
-				<input type="text" class="field" placeholder="Nombre">
-				<input type="text" class="field" placeholder="Email">
-				<input type="text" class="field" placeholder="Teléfono">
-				<textarea placeholder="Mensaje" class="field"></textarea>
-				<button class="btn">Enviar!</button>
+				<form name="contact" method="POST" data-netlify="true">
+					<input type="text" class="field" placeholder="Nombre" name="name">
+					<input type="text" class="field" placeholder="Email" name="email">
+					<input type="text" class="field" placeholder="Teléfono" name="tlf">
+					<textarea placeholder="Mensaje" name="message" class="field"></textarea>
+					<button type="submit" class="btn">Enviar!</button>
+				</form>	
 			</div>
 		</div>
 	</div>
