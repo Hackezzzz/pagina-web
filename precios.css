@@ -88,7 +88,7 @@
         padding: 20px;
     }
 
-    .precios .der a{
+    .precios .der {
         width: 42vh;
         padding: 40px;
         align-items: center;
@@ -96,7 +96,10 @@
         
     }
 
-
+    .precios .der .a{
+        justify-content: center;
+        align-salf: center;
+    }
 }
 
 @media (max-width: 620px){
