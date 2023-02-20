@@ -15,12 +15,21 @@
 			<div class="right">
 				<h2>Nos hemos entendido...</h2>
 				<form name="contact" method="POST" data-netlify="true">
-					<input type="text" class="field" placeholder="Nombre" name="Name ">
-					<input type="text" class="field" placeholder="Email" name="Email ">
-					<input type="text" class="field" placeholder="Teléfono" name="Tlf">
-					<textarea placeholder="Mensaje" name="Message" class="field"></textarea>
-					<button type="submit" class="btn">Enviar!</button>
-				</form>	
+  <input type="hidden" name="subject" 
+  value="Sales inquiry from mysitename.netlify.app" />
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 			</div>
 		</div>
 	</div>
