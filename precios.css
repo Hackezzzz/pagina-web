@@ -80,7 +80,7 @@
         border-right: none;
         align-items: center;
         border-bottom: 2px solid #fff;
-        margin: auto 18vh;
+        margin: auto ;
         
     }
 
@@ -92,7 +92,7 @@
         width: 42vh;
         padding: 40px;
         align-items: center;
-        margin: auto 15vh;
+        margin: auto;
         
     }
 
@@ -101,10 +101,10 @@
 
 @media (max-width: 620px){
     .precios .izq{
-        margin: auto 5vh;
+        margin: auto ;
     }
 
     .precios .der{
-        margin: auto 3.5vh;
+        margin: auto ;
     }
 }
