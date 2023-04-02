@@ -116,9 +116,9 @@ footer{
         
     }
     
-    html{
-        width: 100%;
-    }
+    html, body {
+     min-height: 100%;
+}
 
     .vertical-padding{
         max-width: auto;
