@@ -2,7 +2,7 @@
     background: #2F2F2F;
     color: #fff;
     background-size: cover;
-    
+    max-width: 980px;
     justify-content: space-between;
     display: flex;
 }
