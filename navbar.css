@@ -130,6 +130,7 @@
     .close-menu {
       display: block;
       border: none;
+      margin: -10px;
       background: none;
       cursor: pointer;
     }
