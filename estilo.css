@@ -11,6 +11,9 @@
     scroll-behavior: smooth;
 }
 
+html{
+    width: 100%;}
+
 header {
     font-family: 'Poppins', sans-serif;
     background-color: var(--theme-color);
