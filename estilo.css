@@ -25,6 +25,7 @@ section [id]{
 body{
     font-family: 'Montserrat', sans-serif;
     padding-top: 75px;
+    max-width: 980px;
 }
 
 .observer-root-margin{
