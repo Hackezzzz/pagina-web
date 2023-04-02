@@ -26,7 +26,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding-top: 75px;
     width: 100vh;
-    min-width: 20vh;
+    max-width: 20vh;
 }
 
 .observer-root-margin{
