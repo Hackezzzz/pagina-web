@@ -110,11 +110,13 @@ footer{
 
 @media (min-width: 950px){
     .horizontal-padding{
+        max-width: auto;
         padding-left: 70px;
         padding-right: 70px;
     }
 
     .vertical-padding{
+        max-width: auto;
         padding-top: 70px;
         padding-bottom: 70px;
     }
