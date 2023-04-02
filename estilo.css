@@ -113,11 +113,17 @@ footer{
         max-width: auto;
         padding-left: 70px;
         padding-right: 70px;
+        
+    }
+    
+    html{
+        width: 100%;
     }
 
     .vertical-padding{
         max-width: auto;
         padding-top: 70px;
         padding-bottom: 70px;
+        
     }
 }
