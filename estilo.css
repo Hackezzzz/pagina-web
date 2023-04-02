@@ -15,7 +15,7 @@ header {
     font-family: 'Poppins', sans-serif;
     background-color: var(--theme-color);
     position: fixed;
-    min-width: 500px;
+    min-width: 380px;
 }
 
 section [id]{
